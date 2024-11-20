@@ -36,9 +36,10 @@ const input = document.getElementById("research");
 // Ajout d'un événement
 input.addEventListener("input", () => {
   // Récupère la valeur saisie par l'utilisateur
-  const searchInput = input.value.trim();
+  const searchInput = input.value.trim(); //trim supprimer les espaces
 
   const titleContainer = document.querySelector(".mainDiv");
+  //* Si il n'y a rien dans la barre de recherche tu ne fais rien mais si il y a quelque chose tu fais une recherche d'api via la const wiki
   if (searchInput === "") {
     titleContainer.innerHTML = "";
   } else {
