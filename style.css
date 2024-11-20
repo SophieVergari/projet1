@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 0px;
+}
+
+.mainDiv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input {
+  width: 600px;
+  height: 30px;
+  filter: drop-shadow(0px 0px 2px #000000);
+}
+
+.divResults {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
